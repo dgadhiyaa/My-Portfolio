@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+} 
+
+header{
+    background-color: #333;
+    padding: 50px 0;
+    color: white;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
